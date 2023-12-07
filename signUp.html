@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Manabu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center">
+        <div class="logo mx-auto"> 
+            <img src="logo2.png" width="120px" height="120px" alt="Logo">
+        </div>
+    </header>
+    <main class="signup-container container">
+        <div class="module-panel">
+            <h1>Manabu</h1>
+            <br><br>
+            <h2>Create a Manabu Account</h2>
+            <br><br>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Full Name*</label>
+                    <input type="text" id="fullname" name="fullname" class="form-control" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password">Password (6 or more characters)*</label>
+                    <input type="password" id="password" name="password" class="form-control" minlength="6" required>
+                </div>
+                <br>
+                <button type="submit" class="custom-btn">Join Manabu</button>
+            </form>
+            <br>
+        </div>
+    </main>
+    <footer>
+        <p class="disclaimer">By clicking "Join Manabu," you agree to Manabu's <a href="#">User Agreement</a>,
+            <a href="#">Privacy Policy</a>, and <a href="#">Cookie Policy</a>.</p>
+        <p>&copy; 2023 Manabu. All rights reserved.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
